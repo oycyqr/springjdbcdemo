@@ -1,8 +1,5 @@
 package com.oyc.jdbcdemo.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
 import java.io.Serializable;
 
 /**
@@ -10,11 +7,8 @@ import java.io.Serializable;
  * @Description:用户实体类
  * @date 2018/7/8 22:51
  */
-@Entity
-@Table(name = "user")
 public class User implements Serializable {
     //用户id
-    @Id
     private String id;
     //用户名称
     private String name;
