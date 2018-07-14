@@ -7,7 +7,7 @@ import java.io.Serializable;
  * @Description:用户实体类
  * @date 2018/7/8 22:51
  */
-public class User implements Serializable {
+public class OyUser{
     //用户id
     private String id;
     //用户名称
